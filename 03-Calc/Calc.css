@@ -47,6 +47,8 @@
 .title-bar-left-side, .title-bar-right-side
 {
     margin:0px 8px;
+    display:flex;
+    align-items:center;
 }
 .app-icon
 {
@@ -55,11 +57,12 @@
 }
 .control-button
 {
-    width:24px;
-    height:24px;
+    width:28px;
+    height:28px;
     font-weight:800;
-    /*font-size: 14px;
-    padding:0px 1px 8px 1px;*/
+    font-size: 15px;
+    margin: 0px 1px;
+    padding:0px 1px 8px 1px;
     position:relative;
     left:-1px;
     border:solid 1px white;
@@ -71,6 +74,13 @@
     box-shadow:
         inset -1px -2px 4px 0px #000088,
         inset 4px 2px 4px 0px #7788FF;
+}
+.close-button-signature
+{
+    font-size: 20px;
+    font-family:'Courier New';
+    margin:-4px 0px 0px 0px;
+
 }
 .close-button
 {
